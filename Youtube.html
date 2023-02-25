@@ -1,124 +1,139 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Youtube.com clone</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <style>
 
-      p{
-        font-family: Roboto,Arial;
-        margin-top: 0px;
-        margin-bottom: 0px;
-      }
-      .photo{
-        width: 300px;
-        display: block;
+<head>
+  <title>Youtube.com clone</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    p {
+      font-family: Roboto, Arial;
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
 
-      }
+    .photo {
+      width: 300px;
+      display: block;
 
-      .search-bar{
-        font-size: 20px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        display: block;
-      }
-      .video-title{
-        font-size: 18px;
-        font-weight: 500px;
-        line-height: 25px;
-        margin-bottom: 8px;
-        
+    }
 
-      }
-      .video-author{
-        display: inline-block;
-        font-size: 14px;
-        color: rgb(96, 96, 96);
-        margin-bottom: 8px;
-        
+    .search-bar {
+      font-size: 20px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      display: block;
+    }
 
-      }
-      .video-description{
-        display: inline-block;
-        font-size: 14px;
-        color: rgb(96, 96, 96);
-
-      }
-      .video-preview{
-        width: 300px;
-        display: inline-block;
-        vertical-align: top;
-        margin-right: 15px;
-        
-      }
-      .channel-photo{
-        display: inline-block;
-        width: 50px;
-        vertical-align: top;
-
-      }
-      .video-info{
-        display: inline-block;
-        width: 300px;
-        margin-top: 0;
-        margin-right: 8px;
-
-      }
-      .profile-photo{
-        width: 50px;
-        border-radius: 25px;
-      }
-      .photo-hp{
-        margin-bottom: 10px;
-      }
+    .video-title {
+      font-size: 14px;
+      font-weight: bold;
+      line-height: 20px;
+      margin-bottom: 8px;
+      
 
 
+    }
 
-    </style>
-  </head>
-  <body>
-    <input class="search-bar" type="text" placeholder="search">
+    .video-author {
+      display:inline-block;
+      font-size: 14px;
+      color: rgb(96, 96, 96);
+      margin-bottom: 8px;
+
+
+    }
+
+    .video-description {
+      display:inline-block;
+      font-size: 14px;
+      color: rgb(96, 96, 96);
+
+    }
+
+    .video-preview {
+      display: inline-block;
+      width: 300px;
+      vertical-align: top;
+      margin-right: 15px;
+
+    }
+
+    .channel-photo {
+      display: inline-block;
+      width: 50px;
+      vertical-align: top;
+
+    }
+
+    .video-info {
+      display: inline-block;
+      width: 300px;
+      margin-top: 0;
+      margin-right: 8px;
+
+    }
+
+    .profile-photo {
+      width: 50px;
+      border-radius: 25px;
+      margin-right: 10px;
+    }
+
+    .photo-hp {
+      margin-bottom: 10px;
+      margin-right: 15px;
+    }
+  </style>
+</head>
+
+<body>
+  <input class="search-bar" type="text" placeholder="search">
+  <div class="video-preview">
+    <div class="photo-hp">
+      <image class="photo" src="photo/hq722.webp">
+    </div>
+
+    <div class="channel-photo">
+      <div style="display: flex" class="video-info">
+        <div><img class="profile-photo" src="photo.jpg/channels4_profile.jpg"></div>
+        <p class="video-title">
+          learning CSS code with JavaScript.
+        </p>
+      </div>
+      <div>
+        <p class="video-author">
+          David star.
+        </p>
+        <p class="video-description">
+          3.4 M views &middot; 1 days ago.
+        </p>
+      </div>
+    </div>
+
     <div class="video-preview">
       <div class="photo-hp">
         <image class="photo" src="photo/hq720.webp">
-
       </div>
+  
       <div class="channel-photo">
-        <div><img class="profile-photo" src="photo.jpg/channels4_profile.jpg"></div>
-        <div class="video-info">
+        <div style="display: flex" class="video-info">
+          <div><img class="profile-photo" src="photo.jpg/unnamed.jpg"></div>
           <p class="video-title">
-            Relaxing music that heals stress, anxiety and depressive conditions, heals the mind
+            Relaxing music that heals stress, anxiety and depressive conditions, heals the mind.
           </p>
+        </div>
+        <div>
           <p class="video-author">
             Mellow Dream
           </p>
           <p class="video-description">
-            3.4 M views &middot; 6 months ago
+            3.4 M views &middot; 6 months ago.
+          </p>
         </div>
-        
-        
       </div>
-      <div class="video-preview">
-        <div class="photo-hp">
-          <image class="photo" src="photo/hq722.webp">
-  
-        </div>
-        <div class="channel-photo">
-          <div><img class="profile-photo" src="photo.jpg/unnamed.jpg"></div>
-          <div class="video-info">
-            <p class="video-title">
-              Relaxing music that heals stress, anxiety and depressive conditions, heals the mind
-            </p>
-            <p class="video-author">
-              Mellow Dream
-            </p>
-            <p class="video-description">
-              3.4 M views &middot; 6 months ago
-          </div>
-    
-    </div>
 
-  </body>
+</body>
+
 </html>
