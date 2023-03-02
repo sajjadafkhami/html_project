@@ -33,7 +33,6 @@
       margin-bottom: 8px;
 
 
-
     }
 
     .video-author {
@@ -60,10 +59,16 @@
 
     }
 
+    .video-info-grid{
+      display: grid;
+      grid-template-columns: 50px 1fr;
+    }
+
     .channel-photo {
       display: inline-block;
       width: 50px;
       vertical-align: top;
+      margin-right: 20px;
       background-color: gray;
 
     }
@@ -80,7 +85,7 @@
     .profile-photo {
       width: 50px;
       border-radius: 25px;
-      margin-right: 10px;
+      margin-right: 20px;
     }
 
     .photo-hp {
@@ -92,6 +97,7 @@
 
 <body>
   <input class="search-bar" type="text" placeholder="search">
+
   <div class="video-preview">
     <div class="photo-hp">
       <image class="photo" src="photo/hq722.webp">
@@ -103,7 +109,7 @@
         </div>
         <div class="video-info">
           <p class="video-title">
-            You can experince a new life.
+            You can learn Javascript code.
           </p>
           <p class="video-author">
             Meta Anderson.
@@ -112,14 +118,15 @@
             3.4 M views &middot; 2 months ago.
           </p>
         </div>
-      </div>
     </div>
   </div>
+
+
   <div class="video-preview">
     <div class="photo-hp">
       <image class="photo" src="photo/hq721.webp">
     </div>
-    <div>
+    <div class="video-info-grid">
         <div class="channel-photo">
           <img class="profile-photo" 
           src="photo.jpg/unnamed.jpg">
@@ -132,10 +139,9 @@
             Meta Anderson.
           </p>
           <p class="video-description">
-            3.4 M views &middot; 2 months ago.
+            2.1 M views &middot; 2 days ago.
           </p>
         </div>
-      </div>
     </div>
   </div>
 </body>
