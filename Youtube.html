@@ -15,49 +15,16 @@
 
     .photo {
       width: 300px;
-      display: block;
-
     }
 
     .search-bar {
+      display: block;
       font-size: 20px;
       margin-top: 20px;
       margin-bottom: 20px;
-      display: block;
+      
     }
 
-    .video-title {
-      font-size: 14px;
-      font-weight: bold;
-      line-height: 20px;
-      margin-bottom: 8px;
-
-
-    }
-
-    .video-author {
-      display: inline-block;
-      font-size: 14px;
-      color: rgb(96, 96, 96);
-      margin-bottom: 8px;
-
-
-    }
-
-    .video-description {
-      display: inline-block;
-      font-size: 14px;
-      color: rgb(96, 96, 96);
-
-    }
-
-    .video-preview {
-      display: inline-block;
-      width: 300px;
-      vertical-align: top;
-      margin-right: 15px;
-
-    }
 
     .video-info-grid{
       display: grid;
@@ -66,84 +33,200 @@
 
     .channel-photo {
       display: inline-block;
-      width: 50px;
-      vertical-align: top;
-      margin-right: 20px;
-      background-color: gray;
 
     }
 
     .video-info {
       display: inline-block;
       width: 245px;
-      margin-top: 0;
-      margin-right: 8px;
-      background-color: gray;
 
     }
-
     .profile-photo {
       width: 50px;
       border-radius: 25px;
-      margin-right: 20px;
     }
 
     .photo-hp {
       margin-bottom: 10px;
-      margin-right: 15px;
     }
+    .video-title {
+      font-size: 14px;
+      font-weight: bold;
+      line-height: 20px;
+      margin-bottom: 8px;
+    }
+
+    .video-author {
+      display: inline-block;
+      font-size: 14px;
+      color: rgb(96, 96, 96);
+      margin-bottom: 8px;
+
+    }
+
+    .video-description {
+      display: inline-block;
+      font-size: 14px;
+      color: rgb(96, 96, 96);
+    }
+
+    .video-grid{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      column-gap: 2px;
+      row-gap: 20px;
+    }
+
   </style>
 </head>
 
 <body>
   <input class="search-bar" type="text" placeholder="search">
+  <div class="video-grid">
+    <div class="video-preview">
+      <div class="photo-hp">
+        <image class="photo" src="photo/hq722.webp">
+      </div>
+      <div class="video-info-grid">
+          <div class="channel-photo">
+            <img class="profile-photo" 
+            src="photo.jpg/channels4_profile.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              You can learn Javascript code.
+            </p>
+            <p class="video-author">
+              Meta Anderson.
+            </p>
+            <p class="video-description">
+              3.4 M views &middot; 2 months ago.
+            </p>
+          </div>
+      </div>
+    </div>
+  
+  
+    <div class="video-preview">
+      <div class="photo-hp">
+        <image class="photo" src="photo/hq721.webp">
+      </div>
+      <div class="video-info-grid">
+          <div class="channel-photo">
+            <img class="profile-photo" 
+            src="photo.jpg/unnamed.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Talking Tech and AI with Google CEO Sundar Pichai!
+            </p>
+            <p class="video-author">
+              Marques Brownlee
+            </p>
+            <p class="video-description">
+              2.1 M views &middot; 2 days ago.
+            </p>
+          </div>
+      </div>
+    </div>
+  
+  
+    <div class="video-preview">
+      <div class="photo-hp">
+        <image class="photo" src="photo/hq723.webp">
+      </div>
+      <div class="video-info-grid">
+          <div class="channel-photo">
+            <img class="profile-photo" 
+            src="photo.jpg/channels4_profile2.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              You can learn Javascript code.
+            </p>
+            <p class="video-author">
+              Meta Anderson.
+            </p>
+            <p class="video-description">
+              3.4 M views &middot; 2 months ago.
+            </p>
+          </div>
+      </div>
+    </div>
+  
+  
+    <div class="video-preview">
+      <div class="photo-hp">
+        <image class="photo" src="photo/hq724.webp">
+      </div>
+      <div class="video-info-grid">
+          <div class="channel-photo">
+            <img class="profile-photo" 
+            src="photo.jpg/unnamed2.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Talking Tech and AI with Google CEO Sundar Pichai!
+            </p>
+            <p class="video-author">
+              Marques Brownlee
+            </p>
+            <p class="video-description">
+              2.1 M views &middot; 2 days ago.
+            </p>
+          </div>
+      </div>
+    </div>
 
-  <div class="video-preview">
-    <div class="photo-hp">
-      <image class="photo" src="photo/hq722.webp">
+    <div class="video-preview">
+      <div class="photo-hp">
+        <image class="photo" src="photo/hq725.webp">
+      </div>
+      <div class="video-info-grid">
+          <div class="channel-photo">
+            <img class="profile-photo" 
+            src="photo.jpg/unnamed3.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              You can learn Javascript code.
+            </p>
+            <p class="video-author">
+              Meta Anderson.
+            </p>
+            <p class="video-description">
+              3.4 M views &middot; 2 months ago.
+            </p>
+          </div>
+      </div>
     </div>
-    <div>
-        <div class="channel-photo">
-          <img class="profile-photo" 
-          src="photo.jpg/channels4_profile.jpg">
-        </div>
-        <div class="video-info">
-          <p class="video-title">
-            You can learn Javascript code.
-          </p>
-          <p class="video-author">
-            Meta Anderson.
-          </p>
-          <p class="video-description">
-            3.4 M views &middot; 2 months ago.
-          </p>
-        </div>
+  
+  
+    <div class="video-preview">
+      <div class="photo-hp">
+        <image class="photo" src="photo/hq726.webp">
+      </div>
+      <div class="video-info-grid">
+          <div class="channel-photo">
+            <img class="profile-photo" 
+            src="photo.jpg/channels4_profile.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Talking Tech and AI with Google CEO Sundar Pichai!
+            </p>
+            <p class="video-author">
+              Marques Brownlee
+            </p>
+            <p class="video-description">
+              2.1 M views &middot; 2 days ago.
+            </p>
+          </div>
+      </div>
     </div>
+
   </div>
 
-
-  <div class="video-preview">
-    <div class="photo-hp">
-      <image class="photo" src="photo/hq721.webp">
-    </div>
-    <div class="video-info-grid">
-        <div class="channel-photo">
-          <img class="profile-photo" 
-          src="photo.jpg/unnamed.jpg">
-        </div>
-        <div class="video-info">
-          <p class="video-title">
-            You can experince a new life.
-          </p>
-          <p class="video-author">
-            Meta Anderson.
-          </p>
-          <p class="video-description">
-            2.1 M views &middot; 2 days ago.
-          </p>
-        </div>
-    </div>
-  </div>
 </body>
 
 </html>
