@@ -6,86 +6,29 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-  <style>
-    p {
-      font-family: Roboto, Arial;
-      margin-top: 0px;
-      margin-bottom: 0px;
-    }
 
-    .photo {
-      width: 300px;
-    }
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/video.css">
 
-    .search-bar {
-      display: block;
-      font-size: 20px;
-      margin-top: 20px;
-      margin-bottom: 20px;
-      
-    }
-
-
-    .video-info-grid{
-      display: grid;
-      grid-template-columns: 50px 1fr;
-    }
-
-    .channel-photo {
-      display: inline-block;
-
-    }
-
-    .video-info {
-      display: inline-block;
-      width: 245px;
-
-    }
-    .profile-photo {
-      width: 50px;
-      border-radius: 25px;
-    }
-
-    .photo-hp {
-      margin-bottom: 10px;
-    }
-    .video-title {
-      font-size: 14px;
-      font-weight: bold;
-      line-height: 20px;
-      margin-bottom: 8px;
-    }
-
-    .video-author {
-      display: inline-block;
-      font-size: 14px;
-      color: rgb(96, 96, 96);
-      margin-bottom: 8px;
-
-    }
-
-    .video-description {
-      display: inline-block;
-      font-size: 14px;
-      color: rgb(96, 96, 96);
-    }
-
-    .video-grid{
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      column-gap: 2px;
-      row-gap: 20px;
-    }
-
-  </style>
 </head>
 
 <body>
-  <input class="search-bar" type="text" placeholder="search">
+  <div class="header">
+    <div class="left-section"></div>
+    <div class="middle-section">
+      <input class="search-bar" type="text" placeholder="search">
+    </div>
+    
+    <div class="right-section"></div>
+
+  </div>
+  
   <div class="video-grid">
     <div class="video-preview">
       <div class="photo-hp">
-        <image class="photo" src="photo/hq722.webp">
+        <image class="photo" 
+        src="photo/hq722.webp">
       </div>
       <div class="video-info-grid">
           <div class="channel-photo">
