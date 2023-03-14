@@ -10,6 +10,18 @@
 .left-section {
   background-color: lightblue;
   width: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.hamburger-menu {
+  height: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.youtube-logo{
+  height: 25px;
 }
 
 .middle-section {
@@ -20,7 +32,28 @@
   max-width: 600px;
 }
 
+.voice-search-icon{
+  height: 40px;
+
+}
+
 .right-section {
   background-color: lightpink;
   width: 300px;
+}
+
+.notification{
+  height: 15px;
+}
+
+.youtube-apps{
+  height: 5px;
+}
+
+.upload {
+  height: 5px;
+}
+
+.s.picture {
+  height: 5px;
 }
