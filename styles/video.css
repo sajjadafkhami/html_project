@@ -25,6 +25,7 @@
 
   .photo-hp {
     margin-bottom: 10px;
+    position: relative;
   }
   .video-title {
     font-size: 14px;
@@ -52,4 +53,20 @@
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 2px;
     row-gap: 20px;
+  }
+
+  .video-time {
+    font-family: Roboto ,Arial;
+    font-size: 12px;
+    font-weight: 500px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 8px;
+    left: 5px;
   }

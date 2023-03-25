@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="styles/general.css">
   <link rel="stylesheet" href="styles/header.css">
   <link rel="stylesheet" href="styles/video.css">
+  <link rel="stylesheet" href="styles/sidebar.css">
 
 </head>
 
@@ -22,18 +23,25 @@
     <div class="middle-section">
       <input class="search-bar" type="text" placeholder="search">
       <button class="search-button">
-        <img class="search" src="icons/search.svg">
+        <img class="search-icon" src="icons/search.svg">
       </button> 
-      <button class="voice-search-icon" >
-        <img src="icons/voice-search-icon.svg">
+      <button class="voice-search-button" >
+        <img class="voice-search-icon" src="icons/voice-search-icon.svg">
       </button>
     </div>
     
     <div class="right-section">
-      <img class="notifications" src="icons/notifications.svg">
-      <img class="youtube-apps" src="icons/youtube-apps.svg">
-      <img class="upload" src="icons/upload.svg">
-      <img class="s.picture"src="photo.jpg/s.picture.jpg">
+      <img class="upload-icon" src="icons/upload.svg">
+      <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+      <div class="notifications-icon-container">
+        <img class="notifications-icon" src="icons/notifications.svg">
+        <div class="notifications-count">3</div>
+      </div>
+      <img class="current-user-picture" src="photo.jpg/s.picture.jpg">
+    </div>
+
+    <div class="sidebar">
+      sidebar
     </div>
 
   </div>
@@ -43,6 +51,7 @@
       <div class="photo-hp">
         <image class="photo" 
         src="photo/hq722.webp">
+        <div class="video-time">14:20</div>
       </div>
       <div class="video-info-grid">
           <div class="channel-photo">
@@ -67,6 +76,7 @@
     <div class="video-preview">
       <div class="photo-hp">
         <image class="photo" src="photo/hq721.webp">
+          <div class="video-time">9:28</div>
       </div>
       <div class="video-info-grid">
           <div class="channel-photo">
@@ -91,6 +101,7 @@
     <div class="video-preview">
       <div class="photo-hp">
         <image class="photo" src="photo/hq723.webp">
+          <div class="video-time">7:40</div>
       </div>
       <div class="video-info-grid">
           <div class="channel-photo">
@@ -115,6 +126,7 @@
     <div class="video-preview">
       <div class="photo-hp">
         <image class="photo" src="photo/hq724.webp">
+          <div class="video-time">12:05</div>
       </div>
       <div class="video-info-grid">
           <div class="channel-photo">
@@ -138,6 +150,7 @@
     <div class="video-preview">
       <div class="photo-hp">
         <image class="photo" src="photo/hq725.webp">
+          <div class="video-time">9:30</div>
       </div>
       <div class="video-info-grid">
           <div class="channel-photo">
@@ -162,6 +175,7 @@
     <div class="video-preview">
       <div class="photo-hp">
         <image class="photo" src="photo/hq726.webp">
+          <div class="video-time">10:20</div>
       </div>
       <div class="video-info-grid">
           <div class="channel-photo">
