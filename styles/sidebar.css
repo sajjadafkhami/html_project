@@ -3,29 +3,36 @@
     left: 0px;
     bottom: 0px;
     top: 55px;
-    background-color: rgb(235, 235, 235);
+    background-color: rgb(255, 253, 253);
     width: 75px;
+    z-index: 200;
+    padding-top: 5px;
 }
 
 .sidebar-link {
-    height: 75px;
+    height: 76px;
+    margin-bottom: 2px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     cursor: pointer;
+
     
 }
 
 .sidebar-link:hover {
-    background-color: rgb(196, 192, 192);
+    background-color: rgb(199, 199, 199);
 }
 
-.sidebar-link image {
-    height: 24px;
+.sidebar-link,
+image {
+    height: 90px;
 }
 
 .sidebar-link div {
     font-family: Roboto, Arial;
     font-size: 10px;
 }
+
+

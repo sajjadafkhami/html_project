@@ -1,6 +1,6 @@
 
 .header {
-  height: 55px;
+  height: 65px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -8,6 +8,7 @@
   top: 0px;
   left: 0px;
   right: 0px;
+  z-index: 100;
 
   background-color: white;
   border-bottom-width: 1px;
@@ -44,10 +45,8 @@
   flex: 1;
   height: 34px ;
   padding-left: 10px;
-  font-size: 16px;  
-  border-width: 1px;
-  border-radius: solid;
-  border-color: gray;
+  font-size: 16px; 
+  border: 1px solid gray;
   border-radius: 2px;
   box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
   width: 0;
@@ -68,6 +67,44 @@
   border-color: gray;
   margin-left: -5px;
   margin-right: 20px;
+
+}
+
+.search-button,
+.voice-search-button,
+.upload-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+}
+
+.search-button .tool-tip,
+.voice-search-button .tool-tip,
+.upload-icon-container .tool-tip {
+  font-family: Roboto, Arial;
+  position: absolute;
+  background-color: gray;
+  color: white;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 8px;
+  padding-left: 8px;
+  border-radius: 2px;
+  font-size: 12px;
+  bottom: -18px;
+  opacity: 0;
+  pointer-events: none;
+  white-space: nowrap;
+
+}
+
+.search-button:hover .tool-tip,
+.voice-search-button:hover .tool-tip,
+.upload-icon-container:hover .tool-tip{
+  opacity: 1;
+  transition: opacity 0.20ms;
 }
 .voice-search-button {
   height: 40px;
@@ -79,13 +116,10 @@
 
 .search-icon {
   height: 27px;
-  margin-top: 5px;
 }
 
 .voice-search-icon {
   height: 27px;
-  margin-top: 4px;
-
 }
 
 
